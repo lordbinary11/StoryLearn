@@ -4,6 +4,9 @@ import './App.css';
 import it1 from './assets/images/it1.png'
 import it2 from './assets/images/it2.png'
 import it3 from './assets/images/it3.png'
+import img3 from './assets/images/prem.png'
+import icon1 from './assets/images/icon1.png'
+import game from './assets/images/game.png'
 
 
 function App() {
@@ -14,7 +17,7 @@ function App() {
         <nav className="navbar">
           <div className="navbar-container container">
             <div>
-              <img className='logo' src={lg} alt="Logo" />
+              <img  src={lg} alt="Logo" />
             </div>
             <ul className="menu-items">
               <li className='hideOnMobile'><a href="#about">Home</a></li>
@@ -38,8 +41,13 @@ function App() {
           </div>
         </div>
       </header>
-
+      
       <div className='cont-2'>
+        <h1>Our Tracks</h1>
+        <p>These represent our core tracks, outlining the main directions in which we focus our resources and attention.</p>
+      </div>
+
+      <div className='cont-3'>
         <div className='f-1'>
           <div className='it1'>
             <img className='img' src={it1} />
@@ -47,6 +55,9 @@ function App() {
           <div className='text'>
             <h4>Interactive Lesson</h4>
             <p>Create engaging lesson presentations using multimedia elements. Various templates are available for different subjects and themes, allowing tutors to quickly build their lessons.</p>
+            <div className='visit'>
+              <a href='#'>Visit</a>
+            </div>
           </div>
         </div>
         <div className='f-2'>
@@ -56,6 +67,9 @@ function App() {
           <div className='text'>
             <h4>Interactive Storytelling</h4>
             <p>Create interactive stories where students make choices that affect the narrative, enhancing engagement and comprehension. A library of pre-made interactive stories covering different subjects is available.</p>
+            <div className='visit'>
+              <a href='#'>Visit</a>
+            </div>
           </div>
         </div>
         <div className='f-3'>
@@ -65,9 +79,79 @@ function App() {
           <div className='text'>
             <h4>Gamified Learning Activities</h4>
             <p>A suite of educational games is designed to reinforce learning objectives through fun and interactive activities.</p>
+            <div className='visit'>
+              <a href='#'>Visit</a>
+            </div>
           </div>
         </div>
       </div>
+
+      <div className='cont-4'>
+        <div className='p-left'>
+          <img className='img3' src={img3} /> 
+        </div>
+        <div className='p-right'>
+          <h1>Premium <span className='org'>Learning</span><br></br> Experience</h1>
+          <a className='prem-1' href='#'>
+            <img src={icon1} className='icon' />
+            <div className='txt'>
+              <h4>Create Presentations</h4>
+              <p>Access the StoryLearn editor to create your own presentation or edit existing ones.</p>
+            </div>
+            
+          </a>
+          <a className='prem-1' href='#'>
+            <img src={icon1} className='icon' />
+            <div className='txt'>
+              <h4>Make Up Stories</h4>
+              <p>Access the StoryLearn editor to create your own interactive stories.</p>
+            </div>
+          </a>
+          <a className='prem-1' href='#'>
+            <img src={game} className='icon' />
+            <div className='txt'>
+              <h4>Create Gaming Activities</h4>
+              <p>Access the StoryLearn editor to create your own interactive gaming activities.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div className='cont-5'>
+        <h1>Subscribe to our newsletter</h1>
+        <div className='input-container'>
+          <input type='text' placeholder='johndoe@example.com' />
+          <button type='submit'>Send</button>
+        </div>
+      </div>
+
+      <footer className='App-footer'>
+       <img className=' f-logo' src={lg} alt="Logo" />
+       <div className='footer-links'>
+        <div className='f-element-1 hideOnMobile'>
+          <img className='logo' src={lg} alt="Logo" />
+          <p>StoryLearn is a comprehensive web-based educational platform designed to support tutors in delivering engaging, interactive, and effective learning experiences to children aged 7-12...</p>
+        </div>
+        <div className='f-element-2'>
+          <h4>Company</h4>
+          <p><a href='#'>About Us</a></p>
+          <p><a href='#'>Privacy Policy</a></p>
+        </div>
+        <div className='f-element-3'>
+          <h4>Suppot</h4>
+          <p><a href='#'>FAQ</a></p>
+          <p><a href='#'>Help Center</a></p>
+        </div>
+        <div className='f-element-4'>
+          <h4>Contact Info</h4>
+          <p><a href='#'>+233 55 968 1714</a></p>
+          <p><a href='#'>mujahidshahid72@gmail.com</a></p>
+        </div>
+       </div>
+        <div className='copyright'>
+        <p><a href='#'>StoryLearn All Right Reserved, 2024</a></p>
+        </div>
+      </footer>
     </div>
   );
 }
