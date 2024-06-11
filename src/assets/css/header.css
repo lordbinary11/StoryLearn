@@ -1,0 +1,118 @@
+/* ////........Navbar.......//// */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    background-color: #FDF8EE;
+    top: 0;
+    font-size: calc(10px + 2vmin);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+  }
+  
+  .menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-items li {
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+  }
+  
+  .menu-items a:hover {
+    border-bottom: 2px solid #4D2C5E;
+  }
+  .menu-items :last-child a:hover{
+    border-bottom: none;
+  }
+  .sign-in{
+    color: #fff;
+    border-radius: 2rem;
+    background-color: #4D2C5E;
+    height: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-in a{
+    color:#fff
+  }
+
+  @media(max-width:500px){
+    
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-items a {
+      font-size: 0.8rem;
+    }
+    .sign-in{
+      font-size: 20px;
+      height: 5px;
+    }
+    .logo{
+      width: 80%;
+    }
+  }
+  @media(min-width:501px) and (max-width:768px){
+    
+    .menu-items li {
+      padding: 0.3rem;
+    }
+    
+    .menu-items a {
+      font-size: 1.2rem;
+      padding: 0.3rem;
+    }
+    .sign-in{
+      height:50%;
+      border-radius: 20px;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .menu-items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .menu-items li {
+      padding: 0.3rem;
+    }
+    
+    .menu-items a {
+      font-size: 1.2rem;
+      padding: 0.3rem;
+    }
+    .sign-in{
+      height:50%;
+      border-radius: 20px;
+    }
+}
+@media (orientation: landscape) and (max-height: 500px) {
+    
+    .hideOnMobile{
+      display: none;
+    }
+}
+  
