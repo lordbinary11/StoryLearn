@@ -7,7 +7,7 @@ import it3 from '../assets/images/it3.png'
 import img3 from '../assets/images/prem.png'
 import icon1 from '../assets/images/icon1.png'
 import game from '../assets/images/game.png'
-import Header from '../components/header';
+import Header from '../components/Header';
 import Footer from '../components/footer';
 
 
@@ -20,8 +20,8 @@ function App() {
       <div className='intro'>
           <div className='cont-1'>
             <div className='left'>
-              <h1>The <span className='org'>Smart</span><br /> Choice For <span className='org'>Future</span></h1>
-              <p>
+              <h1 >The <span className='org'>Smart</span><br /> Choice For <span className='org'>Future</span></h1>
+              <p className='mt-20'>
               StoryLearn is a comprehensive web-based educational platform designed to support tutors in delivering engaging, interactive, and effective learning experiences to children aged 7-12...
               </p>
             </div>
@@ -31,8 +31,8 @@ function App() {
           </div>
         </div>
       
-      <div className='cont-2'>
-        <h1>Our Tracks</h1>
+      <div className='cont-2 mt-30'>
+        <h1 className='text-3xl font-bold'>Our Tracks</h1>
         <p>These represent our core tracks, outlining the main directions in which we focus our resources and attention.</p>
       </div>
 

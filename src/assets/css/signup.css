@@ -1,0 +1,48 @@
+/* Default: Large devices such as laptops, computers (greater than 1024px) */
+.container{
+    background-color: #4D2C5E;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/snb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 120px;
+    height: 40px;
+}
+.illustrations{
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #fff;
+}
+.i-1{
+    z-index: 400;
+    position: fixed;
+    height: 450px;
+}
+.form{
+    width: 70%;
+    height: 100vh;
+    background-color: #fff;
+    right: 0;
+    float: right;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+.fm{
+    padding-top: 70px;
+    padding-left: 200px;
+}
+.name{
+    display: flex;
+}
+
+
+/* Medium devices such as tablets (1024px or lesser) */
+@media only screen and (max-width: 1024px) {}
+
+/* Small devices such as phones (768px or lesser) */
+@media only screen and (max-width: 768px) {} 
