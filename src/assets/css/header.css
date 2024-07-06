@@ -13,10 +13,17 @@
     justify-content: space-between;
     align-items: center;
     height: 74px;
-    padding: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
+
+    padding: 20px 10% 10px 10%;
     
+  }
+  .h-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h-logo{
+    width: 200px; /* Adjust as needed */
   }
   
   .menu-items {
@@ -96,10 +103,15 @@
     height: 60px;
   }
   
+
+  
   @media(max-width:500px){
     
     .hideOnMobile{
       display: none;
+    }
+    .h-logo{
+      width: 150px;
     }
     .button{
       display: block;
@@ -114,6 +126,7 @@
     .s-b{
       margin-top: 0px;
     }
+
   }
   @media(min-width:501px) and (max-width:768px){
     
@@ -128,6 +141,10 @@
     .sign-in{
       height:50%;
       border-radius: 20px;
+    }
+    .lg{
+      width: 10px;
+      height: 10px;
     }
   }
   @media (min-width: 769px) and (max-width: 1200px) {
@@ -165,10 +182,15 @@
     .s-b{
       margin-top: 50px;
     }
+    
 }
 @media (orientation: landscape) and (height < 321px){
    .s-b{
     margin-top: 0px;
    }
+   .Logo{
+    width: 20px;
+    height: 20px;
+  }
 }
 

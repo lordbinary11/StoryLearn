@@ -1,6 +1,6 @@
 import React from 'react'
 import '../assets/css/footer.css';
-import lg from '../assets/images/lg.png';
+import lg from '../assets/images/logoindigo.png';
 
 export default function footer() {
   return (

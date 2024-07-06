@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import lg from '../assets/images/lg.png';
-import '../assets/css/output.css';
+import logo from '../assets/images/logoindigo.png';
+import '../assets/css/header.css';
 import { HiHome, HiUser, HiLogout, HiHeart, HiPhone } from "react-icons/hi";
 
 export default function Header() {
@@ -32,9 +32,9 @@ export default function Header() {
   return (
     <header>
       <nav className="navbar">
-        <div className="navbar-container container">
-          <div>
-            <img className='logo' src={lg} alt="Logo" />
+        <div className="navbar-container">
+          <div className='h-div'>
+            <img className=' h-logo' src={logo} alt="Logo" />
           </div>
           <ul className="menu-items">
             <li className='hideOnMobile'><a href="#about">Home</a></li>
