@@ -9,6 +9,8 @@ import icon1 from '../assets/images/icon1.png'
 import game from '../assets/images/game.png'
 import Header from '../components/Header';
 import Footer from '../components/footer';
+import { Link } from 'react-router-dom';
+
 
 
 function App() {
@@ -45,7 +47,7 @@ function App() {
             <h4>Interactive Lesson</h4>
             <p>Create engaging lesson presentations using multimedia elements. Various templates are available for different subjects and themes, allowing tutors to quickly build their lessons.</p>
             <div className='visit'>
-              <a href='#'>Visit</a>
+              <Link to="/track1" href='tracks.js'>Visit</Link>
             </div>
           </div>
         </div>

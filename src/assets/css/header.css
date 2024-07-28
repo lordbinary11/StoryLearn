@@ -115,6 +115,9 @@
     }
     .button{
       display: block;
+      background-color: #FF7426;
+      color: #fff;
+      border-style: none;
     }
     .menu-items a {
       font-size: 0.8rem;
