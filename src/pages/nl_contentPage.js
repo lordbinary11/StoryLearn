@@ -3,8 +3,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { HiPlay, HiFolder } from 'react-icons/hi'; // Import icons
 import Header from '../components/Header';
-import  '../assets/css/contentPage.css';
-import { units } from '../components/units';
+import  '../assets/css/nl_contentPage.css';
+import { units } from '../components/nl_units';
 
 const iconMap = {
   HiPlay: HiPlay,

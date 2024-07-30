@@ -69,7 +69,7 @@
     position: fixed;
     right: 0;
     z-index: 500;
-    height: 300px;
+    height: 220px;
     background-color: #4D2C5E;
     width: 250px;
     border-radius: 0.5rem;
@@ -98,9 +98,8 @@
     width: 24px;
     height: 24px;
   }
-  button{
+  .button{
     display: none;
-    height: 60px;
   }
   
 
@@ -115,9 +114,15 @@
     }
     .button{
       display: block;
-      background-color: #FF7426;
       color: #fff;
-      border-style: none;
+      border-radius: 1rem;
+      background-color: #4D2C5E;
+      height: 40px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70px;
     }
     .menu-items a {
       font-size: 0.8rem;
@@ -126,9 +131,9 @@
       font-size: 20px;
       height: 5px;
     }
-    .s-b{
+    /* .s-b{
       margin-top: 0px;
-    }
+    } */
 
   }
   @media(min-width:501px) and (max-width:768px){

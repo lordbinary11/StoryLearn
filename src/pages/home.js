@@ -8,7 +8,7 @@ import img3 from '../assets/images/prem.png'
 import icon1 from '../assets/images/icon1.png'
 import game from '../assets/images/game.png'
 import Header from '../components/Header';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 
 
@@ -47,7 +47,7 @@ function App() {
             <h4>Interactive Lesson</h4>
             <p>Create engaging lesson presentations using multimedia elements. Various templates are available for different subjects and themes, allowing tutors to quickly build their lessons.</p>
             <div className='visit'>
-              <Link to="/track1" href='tracks.js'>Visit</Link>
+              <Link to="/track1" >Visit</Link>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ function App() {
             <h4>Interactive Storytelling</h4>
             <p>Create interactive stories where students make choices that affect the narrative, enhancing engagement and comprehension. A library of pre-made interactive stories covering different subjects is available.</p>
             <div className='visit'>
-              <a href='#'>Visit</a>
+            <Link to="/track2" >Visit</Link>
             </div>
           </div>
         </div>

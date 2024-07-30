@@ -40,8 +40,8 @@ export default function Header() {
             <li className='hideOnMobile'><a href="#about">Home</a></li>
             <li className='hideOnMobile'><a href="#my-works">About Us</a></li>
             <li className='hideOnMobile'><a href="#contact-me">Contact Us</a></li>
-            <li className='sign-in'><a href="#contact-me">Sign in</a></li>
-            <button onClick={toggleVisibility} className='button'>{isVisible ? 'Hide' : 'Show'}</button>
+            {/* <li className='sign-in'><a href="#contact-me">Sign in</a></li> */}
+            <button onClick={toggleVisibility} className='button'>{isVisible ? 'Hide' : 'Menu'}</button>
           </ul>
         </div>
       </nav>
@@ -64,10 +64,10 @@ export default function Header() {
               <HiPhone className="list-item-icon" />
               <span>Contact Us</span>
             </li>
-            <li className="list-item">
+            {/* <li className="list-item">
               <HiLogout className="list-item-icon" />
               <span>Sign Out</span>
-            </li>
+            </li> */}
           </ul>
         </div>
       )}

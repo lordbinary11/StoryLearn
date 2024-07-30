@@ -4,8 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { HiPlay } from 'react-icons/hi';
 import { HiFolder } from 'react-icons/hi';
-import { units } from '../components/nl_units';
-import { Link } from 'react-router-dom';
+import { units } from '../components/l_units';
 
 
 const iconMap = {
@@ -76,7 +75,7 @@ function App() {
               </ul>
               <p>{selectedUnit.description.loveIt}</p>
             </div>
-          ) : selectedUnit.id === 2 ? (
+          ) : (
             <div>
               <h2>{selectedUnit.title}: {selectedUnit.subtitle}</h2>
               <div className='about'>
@@ -94,19 +93,11 @@ function App() {
                     </li>
                   ))}
                 </ul>
-                <a href='/track1/numerical_literacy/unit1' className='bt'>Visit</a>
+                <a href='/track1/literacy/unit1' className='bt'>Visit</a>
 
               </div>
             </div>
-          ) : (
-            <div>
-              <h2>{selectedUnit.title}: {selectedUnit.subtitle}</h2>
-              <div className='about'>
-                <h2>About This Unit</h2>
-                {/* <p>{selectedUnit.about}</p> */}
-              </div>
-            </div>
-          )}
+          ) }
         </div>
 
 

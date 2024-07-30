@@ -52,17 +52,19 @@ export const units = [
           title: 'Add within 20',
           items: [
               {logo: 'HiFolder', text: 'Add and subtract within 20: FAQ',link_1:'/unit1'},
-              {logo: 'HiPlay', text: 'Add and subtract within 20: FAQ',link_1:'/unit1'},
-              {logo: 'HiPlay', text: 'Add and subtract within 20: FAQ',link_1:'/unit1'},
-              {logo: 'HiPlay', text: 'Add and subtract within 20: FAQ',link_1:'/unit1'},
+              {logo: 'HiPlay', text: 'Adding within 20 using place value blocks',link_1:'/unit1'},
+              {logo: 'HiPlay', text: 'Adding within 20 using ten frames',link_1:'/unit1'},
+              {logo: 'HiPlay', text: 'Adding 7+6',link_1:'/unit1'},
+              {logo: 'HiPlay', text: 'Adding 8+7',link_1:'/unit1'},
           ]
       }
     },
-    { id: 3,link: '/content/3', title: 'Unit Three', subtitle: 'Third Subtitle' },
-    { id: 4,link: '/content/4', title: 'Unit Four', subtitle: 'Fourth Subtitle' },
-    { id: 5,link: '/content/5', title: 'Unit Five', subtitle: 'Fifth Subtitle' },
-    { id: 6,link: '/content/6', title: 'Unit Six', subtitle: 'Sixth Subtitle' },
-    { id: 7,link: '/content/7', title: 'Unit Seven', subtitle: 'Seventh Subtitle' },
+    { id: 3,link: '/content/3', title: 'Unit 2', subtitle: 'Place value' },
+    { id: 4,link: '/content/4', title: 'Unit 3', subtitle: 'Add and subtract within 100' },
+    { id: 5,link: '/content/5', title: 'Unit 4', subtitle: 'Money and Time' },
+    { id: 6,link: '/content/6', title: 'Unit 5', subtitle: 'Measurement' },
+    { id: 7,link: '/content/7', title: 'Unit 6', subtitle: 'Data' },
+    { id: 8,link: '/content/8', title: 'Unit 7', subtitle: 'Geometry' },
   ];
 
 

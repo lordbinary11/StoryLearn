@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import '../assets/css/unit1.css';
 import Header from '../components/Header';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 import { HiPlay, HiFolder } from 'react-icons/hi';
-import { unit1 } from '../components/units';
+import { unit1 } from '../components/l_units';
 import { Button } from 'flowbite-react';
 
 
@@ -33,7 +33,7 @@ function App() {
       <Header />
       <div className="app">
         <div className="sidebar">
-          <a className='unit' href='/track1/numerical_literacy'>Unit 1</a>
+          <a className='unit' href='/track1/literacy'>Unit 1</a>
           {unit1.map((unit) => (
             <div
               key={unit.id}
@@ -76,33 +76,32 @@ function App() {
               <p>{selectedUnit.question1.p1}</p>
               <p>{selectedUnit.question1.p2}</p>
               <p><img src={selectedUnit.question1.img1} /></p>
-              <p>{selectedUnit.question1.p3}</p>
-              <p>{selectedUnit.question1.p4}</p>
-              <p><img src={selectedUnit.question1.img2} /></p>
 
               <h2>{selectedUnit.question2.title}</h2>
               <p>{selectedUnit.question2.p1}</p>
               <p>{selectedUnit.question2.p2}</p>
-              <p><img src={selectedUnit.question2.img3} /></p>
-              <p>{selectedUnit.question2.p3}</p>
-              <p><img src={selectedUnit.question2.img4} /></p>
+              <p><img src={selectedUnit.question2.img2} /></p>
+
 
               <h2>{selectedUnit.question3.title}</h2>
               <p>{selectedUnit.question3.p1}</p>
-              <p><img src={selectedUnit.question3.img5} /></p>
               <p>{selectedUnit.question3.p2}</p>
-              <p><img src={selectedUnit.question3.img6} /></p>
+              <p><img src={selectedUnit.question3.img3} /></p>
 
               <h2>{selectedUnit.question4.title}</h2>
               <p>{selectedUnit.question4.p1}</p>
-              <p><img src={selectedUnit.question4.img7} /></p>
+              <p>{selectedUnit.question4.p2}</p>
+              <p><img src={selectedUnit.question4.img4} /></p>
+              <h2>{selectedUnit.question4.p3}</h2>
+              <p><img src={selectedUnit.question4.img5} /></p>
 
               <h2>{selectedUnit.question5.title}</h2>
               <p>{selectedUnit.question5.p1}</p>
+              <p>{selectedUnit.question5.p2}</p>
 
 
             </div>
-          ) : selectedUnit.id === 6 ? (
+          ) : selectedUnit.id === 7 ? (
             <div>
               <h2 className='first-title'>{selectedUnit.title}</h2>
               <a href='' className='unit'>Unit 1</a>

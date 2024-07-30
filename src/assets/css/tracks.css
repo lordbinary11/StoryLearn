@@ -71,10 +71,22 @@
     background-image: url(../images/2901.jpg);
     background-size: cover;
 }
+.c33{
+    background-color: gray;
+    width: 250px;
+    background-image: url(../images/audiobk.jpg);
+    background-size: cover;
+}
 .t2c3{
     background-color: rgb(202, 198, 198);
     width: 250px;
     background-image: url(../images/story.jpg);
+    background-size: cover;
+}
+.t2{
+    background-color: rgb(202, 198, 198);
+    width: 250px;
+    background-image: url(../images/videobk.avif);
     background-size: cover;
 }
 .t3c3{
@@ -82,6 +94,12 @@
     width: 250px;
     background-image: url(../images/game.jpeg);
     background-size: contain;
+}
+.t3{
+    background-color: rgb(202, 198, 198);
+    width: 250px;
+    background-image: url(../images/decisionbk.avif);
+    background-size: cover;
 }
 p{
     margin-top: 5px;
