@@ -151,7 +151,7 @@ h1{
   }
   .prem-1{
     display: flex;
-    align-items: start;
+    align-items: center;
     text-decoration: none;
     color: #000;
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -161,8 +161,8 @@ h1{
   }
   
   .txt{
-    margin-left: 20px;
-    margin-top: -20px;
+    margin-left: 10px;
+    margin-top: -10px;
   }
   .txt h4{
     margin-bottom: -10px;

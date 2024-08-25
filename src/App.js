@@ -59,11 +59,18 @@ import VStory1 from './pages/video stories/story-1'
 import VStory2 from './pages/video stories/story-3'
 import VStory3 from './pages/video stories/story-3'
 import VStory4 from './pages/video stories/story-4'
+import EduGames from './pages/edugames'
+import Rocket from './pages/rocket'
+import About from './pages/about'
+import Contact from './pages/contact';
+
 function AppRouter() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/contact-us" element={<Contact />} />
         <Route path="/track1/numerical_literacy" element={<App />} />
         <Route path="/track1/literacy" element={<Literacy />} />
         <Route path="/track1" element={<Track1 />} />
@@ -78,6 +85,8 @@ function AppRouter() {
         <Route path="/track2/video-stories/story-2" element={<VStory2 />} />
         <Route path="/track2/video-stories/story-3" element={<VStory3 />} />
         <Route path="/track2/video-stories/story-4" element={<VStory4 />} />
+        <Route path="/track3/edugames" element={<EduGames />} />
+        <Route path="/track3/edugames/rocket" element={<Rocket />} />
         <Route path="/track1/numerical_literacy/unit1" element={<NL_Unit1 />} />
         <Route path="/track1/literacy/unit1" element={<L_Unit1 />} />
         <Route path="track1/numerical_literacy/:id" element={<NL_ContentPage />} />

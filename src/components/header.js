@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import logo from '../assets/images/logoindigo.png';
 import '../assets/css/header.css';
 import { HiHome, HiUser, HiLogout, HiHeart, HiPhone } from "react-icons/hi";
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(false);
@@ -37,9 +38,15 @@ export default function Header() {
             <img className=' h-logo' src={logo} alt="Logo" />
           </div>
           <ul className="menu-items">
-            <li className='hideOnMobile'><a href="#about">Home</a></li>
-            <li className='hideOnMobile'><a href="#my-works">About Us</a></li>
-            <li className='hideOnMobile'><a href="#contact-me">Contact Us</a></li>
+            <li className='hideOnMobile'>
+              <Link to="/" >Home</Link>
+            </li>
+            <li className='hideOnMobile'>
+              <Link to="/about-us" >About Us</Link>
+            </li>
+            <li className='hideOnMobile'>
+              <Link to="/contact-us" >Contact Us</Link>
+            </li>
             {/* <li className='sign-in'><a href="#contact-me">Sign in</a></li> */}
             <button onClick={toggleVisibility} className='button'>{isVisible ? 'Hide' : 'Menu'}</button>
           </ul>

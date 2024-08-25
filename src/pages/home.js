@@ -71,7 +71,7 @@ function App() {
             <h4>Gamified Learning Activities</h4>
             <p>A suite of educational games is designed to reinforce learning objectives through fun and interactive activities.</p>
             <div className='visit'>
-              <a href='#'>Visit</a>
+            <Link to="/track3/edugames" >Visit</Link>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ function App() {
           <img className='img3' src={img3} /> 
         </div>
         <div className='p-right'>
-          <h1>Premium <span className='org'>Learning</span><br></br> Experience</h1>
+          <h1>Future <span className='org'>Learning</span><br></br> Experience</h1>
           <a className='prem-1' href='#'>
             <img src={icon1} className='icon' />
             <div className='txt'>
