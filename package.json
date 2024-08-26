@@ -1,7 +1,7 @@
 {
   "name": "storylearn",
   "version": "0.1.0",
-  "homepage": "https://lordbinary11.github.io/storylearn",
+  "homepage": "https://lordbinary11.github.io/StoryLearn",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
