@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/StoryLearn/static/css/main.abaed7be.css",
+    "main.css": "/StoryLearn/static/css/main.13208fae.css",
     "main.js": "/StoryLearn/static/js/main.2e0c8af2.js",
     "static/js/453.9d8174da.chunk.js": "/StoryLearn/static/js/453.9d8174da.chunk.js",
     "static/media/game.jpeg": "/StoryLearn/static/media/game.4ed61ecbcf09a568bf05.jpeg",
     "static/media/story.jpg": "/StoryLearn/static/media/story.02b5f104c33a8e56d50a.jpg",
     "static/media/2901.jpg": "/StoryLearn/static/media/2901.100060e9aecb237fd215.jpg",
-    "static/media/h_bg.jpg": "/StoryLearn/static/media/h_bg.3485258391f668ca4523.jpg",
+    "static/media/h_bg.jpg": "/StoryLearn/static/media/h_bg.e3bd03948c5f8465f714.jpg",
     "static/media/bg4.png": "/StoryLearn/static/media/bg4.29f990b4553fa8974dfb.png",
     "static/media/si2.jpeg": "/StoryLearn/static/media/si2.76fc6c7784b405e6f533.jpeg",
     "static/media/OBJECTS.png": "/StoryLearn/static/media/OBJECTS.33d0a77d8de5b6bb3b49.png",
@@ -42,12 +42,12 @@
     "static/media/firefly.avif": "/StoryLearn/static/media/firefly.23db612cab0f18a44998.avif",
     "static/media/videobk.avif": "/StoryLearn/static/media/videobk.fca06e93d9aea8ec87ee.avif",
     "index.html": "/StoryLearn/index.html",
-    "main.abaed7be.css.map": "/StoryLearn/static/css/main.abaed7be.css.map",
+    "main.13208fae.css.map": "/StoryLearn/static/css/main.13208fae.css.map",
     "main.2e0c8af2.js.map": "/StoryLearn/static/js/main.2e0c8af2.js.map",
     "453.9d8174da.chunk.js.map": "/StoryLearn/static/js/453.9d8174da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abaed7be.css",
+    "static/css/main.13208fae.css",
     "static/js/main.2e0c8af2.js"
   ]
 }
